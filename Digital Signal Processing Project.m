@@ -272,4 +272,4 @@ xlabel('nT (s)'); ylabel('y(nT)');
 axis([0.1 d min(y) max(y)]);
 hold off
 
-audiowrite('Zabot_Aurora.wav', y_dem, fs);
+audiowrite('Output Audio File.wav', y_dem, fs);
